@@ -1,16 +1,18 @@
 # Proprietary files - from Samsung package version G965FXXUHFVB4, unless pinned
 
 # Audio
-vendor/etc/SoundBoosterParam.txt
 vendor/etc/floating_feature.xml
 vendor/etc/mixer_gains.xml
 vendor/etc/mixer_paths.xml
 vendor/etc/dolby/dax-default.xml
+-vendor/lib/hw/audio.primary.exynos9810.so
+-vendor/lib/hw/sound_trigger.primary.exynos9810.so
+-vendor/lib/libaudioproxy.so
 -vendor/lib/librecordalive.so
--vendor/lib/soundfx/libsamsungSoundbooster_plus.so
+-vendor/lib/lib_SamsungRec_06006.so
+-vendor/lib/soundfx/libaudioeffectoffload.so
 -vendor/lib/soundfx/libswdap.so
--vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
--vendor/lib64/soundfx/libswdap.so
+-vendor/lib64/soundfx/libaudioeffectoffload.so
 
 # Audio Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
