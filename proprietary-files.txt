@@ -50,14 +50,6 @@ vendor/firmware/ois_fw_sec.bin
 # Keymaster
 -vendor/lib64/libkeymaster_helper_vendor.so
 
-# OMX
--vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so
--vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so
--vendor/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so
--vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so
--vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so
--vendor/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so
-
 # OMX Firmware
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/firmware/fimc_is_lib.bin
