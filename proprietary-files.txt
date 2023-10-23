@@ -1,9 +1,6 @@
 # Proprietary files - from Samsung package version G965FXXUHFVG4, unless pinned
 
 # Audio
-vendor/etc/floating_feature.xml
-vendor/etc/mixer_gains.xml
-vendor/etc/mixer_paths.xml
 vendor/etc/dolby/dax-default.xml
 -vendor/lib/hw/audio.primary.exynos9810.so
 -vendor/lib/hw/sound_trigger.primary.exynos9810.so
@@ -68,6 +65,9 @@ vendor/app/mcRegistry/ffffffff00000000000000000000003e.tlbin
 # NFC
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
 vendor/firmware/nfc/BRI/sec_s3nrn82_firmware.bin
+
+# RIL
+vendor/etc/floating_feature.xml
 
 # Samsung SLSI IVA
 -vendor/lib/libhifistill.so
