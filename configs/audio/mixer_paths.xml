@@ -652,32 +652,22 @@
 
 	<path name="communication-handset">
 		<path name="media-handset" />
-		<ctl name="ABOX Speech Param" value="9" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="10" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="10" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-dex-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="11" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-dex-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="11" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-headset">
@@ -685,8 +675,6 @@
 		<ctl name="Output Ramp Up" value="8ms/6dB" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="13" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-headphone">
@@ -694,434 +682,302 @@
 		<ctl name="Output Ramp Up" value="8ms/6dB" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="12" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-bt-sco-headset">
 		<path name="media-bt-sco-headset" />
-		<ctl name="ABOX Speech Param" value="7" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-usb-headset">
 		<path name="apcall-usb-headset" />
-		<ctl name="ABOX Speech Param" value="111" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<!-- samsung voip playback -->
 	<path name="samsung_voip-handset">
 		<path name="media-handset" />
-		<ctl name="ABOX Speech Param" value="23" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="24" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="24" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip-dex-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="25" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip-dex-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="25" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip-headset">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="27" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip-headphone">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="26" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip-bt-sco-headset">
 		<path name="media-bt-sco-headset" />
-		<ctl name="ABOX Speech Param" value="21" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip-usb-headset">
 		<path name="apcall-usb-headset" />
-		<ctl name="ABOX Speech Param" value="115" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<!-- samsung voip fmc playback -->
 	<path name="samsung_voip_fmc-handset">
 		<path name="media-handset" />
-		<ctl name="ABOX Speech Param" value="16" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip_fmc-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="17" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip_fmc-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="17" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip_fmc-dex-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="18" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip_fmc-dex-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="18" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip_fmc-headset">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="20" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip_fmc-headphone">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="19" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip_fmc-bt-sco-headset">
 		<path name="media-bt-sco-headset" />
-		<ctl name="ABOX Speech Param" value="14" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="samsung_voip_fmc-usb-headset">
 		<path name="apcall-usb-headset" />
-		<ctl name="ABOX Speech Param" value="113" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<!-- voip playback -->
 	<path name="voip-handset">
 		<path name="media-handset" />
-		<ctl name="ABOX Speech Param" value="9" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="voip-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="10" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="voip-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="10" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="voip-dex-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="11" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="voip-dex-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="11" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="voip-headset">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="13" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="voip-headphone">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="12" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="voip-bt-sco-headset">
 		<path name="media-bt-sco-headset" />
-		<ctl name="ABOX Speech Param" value="7" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="voip-usb-headset">
 		<path name="apcall-usb-headset" />
-		<ctl name="ABOX Speech Param" value="111" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<!-- wificall playback -->
 	<!-- wificall AP NB -->
 	<path name="wificall_nb-handset">
 		<path name="media-handset" />
-		<ctl name="ABOX Speech Param" value="48" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_nb-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="50" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_nb-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="50" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_nb-dex-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="52" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_nb-dex-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="52" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_nb-headset">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="55" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_nb-headphone">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="54" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_nb-bt-sco-headset">
 		<path name="media-bt-sco-headset" />
-		<ctl name="ABOX Speech Param" value="46" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_nb-usb-headset">
 		<path name="apcall-usb-headset" />
-		<ctl name="ABOX Speech Param" value="121" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<!-- wificall AP WB -->
 	<path name="wificall_wb-handset">
 		<path name="media-handset" />
-		<ctl name="ABOX Speech Param" value="58" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_wb-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="60" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_wb-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="60" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_wb-dex-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="62" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_wb-dex-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="62" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_wb-headset">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="65" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_wb-headphone">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="64" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_wb-bt-sco-headset">
 		<path name="media-bt-sco-headset" />
-		<ctl name="ABOX Speech Param" value="56" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_wb-usb-headset">
 		<path name="apcall-usb-headset" />
-		<ctl name="ABOX Speech Param" value="123" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<!-- wificall AP EVS -->
 	<path name="wificall_evs-handset">
 		<path name="media-handset" />
-		<ctl name="ABOX Speech Param" value="68" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_evs-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="70" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_evs-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="70" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_evs-dex-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="72" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_evs-dex-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="72" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_evs-headset">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="75" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_evs-headphone">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="74" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_evs-bt-sco-headset">
 		<path name="media-bt-sco-headset" />
-		<ctl name="ABOX Speech Param" value="66" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="wificall_evs-usb-headset">
 		<path name="apcall-usb-headset" />
-		<ctl name="ABOX Speech Param" value="125" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<!-- Video call playback -->
 	<path name="video_call-handset">
 		<path name="media-handset" />
-		<ctl name="ABOX Speech Param" value="30" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="video_call-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="31" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="video_call-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="31" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="video_call-dex-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="33" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="video_call-dex-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="33" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="video_call-headset">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="36" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="video_call-headphone">
 		<path name="media-headset" />
 		<path name="route-sifs0-to-rsrc0" />
 		<path name="route-rsrc0-to-wdma0" />
-		<ctl name="ABOX Speech Param" value="35" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="video_call-bt-sco-headset">
 		<path name="media-bt-sco-headset" />
-		<ctl name="ABOX Speech Param" value="28" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="video_call-usb-headset">
 		<path name="apcall-usb-headset" />
-		<ctl name="ABOX Speech Param" value="117" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<!-- VoiceCall paths -->
