@@ -16,6 +16,9 @@ function blob_fixup() {
         vendor/lib*/libwrappergps.so)
                 "${PATCHELF}" --replace-needed libvndsecril-client.so libsecril-client.so "${2}"
                 ;;
+        vendor/lib64/libkeymaster_helper_vendor.so)
+                "${PATCHELF}" --replace-needed libcrypto.so libcrypto-v33.so "${2}"
+                ;;
     esac
 }
 
