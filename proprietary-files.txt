@@ -1,15 +1,11 @@
 # Proprietary files - from Samsung package version G965FXXUHFVG4, unless pinned
 
-# Audio
+# Audio - RIL
+vendor/etc/floating_feature.xml
+
+# Audio - Dolby Atmos
 vendor/etc/dolby/dax-default.xml
--vendor/lib/hw/audio.primary.exynos9810.so
--vendor/lib/hw/sound_trigger.primary.exynos9810.so
--vendor/lib/libaudioproxy.so
--vendor/lib/librecordalive.so
--vendor/lib/lib_SamsungRec_06006.so
--vendor/lib/soundfx/libaudioeffectoffload.so
 -vendor/lib/soundfx/libswdap.so
--vendor/lib64/soundfx/libaudioeffectoffload.so
 
 # Audio Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
@@ -65,9 +61,6 @@ vendor/app/mcRegistry/ffffffff00000000000000000000003e.tlbin
 # NFC
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
 vendor/firmware/nfc/BRI/sec_s3nrn82_firmware.bin
-
-# RIL
-vendor/etc/floating_feature.xml
 
 # Samsung SLSI IVA
 -vendor/lib/libhifistill.so

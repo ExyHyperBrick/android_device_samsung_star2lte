@@ -4720,13 +4720,13 @@
 	<!-- CP Call Input volume -->
 	<!-- NB volume -->
 	<path name="gain-incall_nb-handset-mic">
-		<ctl name="IN3L Digital Volume" value="148" />
-		<ctl name="IN4L Digital Volume" value="140" />
+		<ctl name="IN3L Digital Volume" value="188" />
+		<ctl name="IN4L Digital Volume" value="180" />
 	</path>
 
 	<path name="gain-incall_nb-speaker-mic">
-		<ctl name="IN3L Digital Volume" value="136" />
-		<ctl name="IN4L Digital Volume" value="140" />
+		<ctl name="IN3L Digital Volume" value="176" />
+		<ctl name="IN4L Digital Volume" value="180" />
 	</path>
 
 	<path name="gain-incall_nb-dual-speaker-mic">
@@ -4760,13 +4760,13 @@
 
 	<!-- WB volume -->
 	<path name="gain-incall_wb-handset-mic">
-		<ctl name="IN3L Digital Volume" value="148" />
-		<ctl name="IN4L Digital Volume" value="140" />
+		<ctl name="IN3L Digital Volume" value="188" />
+		<ctl name="IN4L Digital Volume" value="180" />
 	</path>
 
 	<path name="gain-incall_wb-speaker-mic">
-		<ctl name="IN3L Digital Volume" value="136" />
-		<ctl name="IN4L Digital Volume" value="140" />
+		<ctl name="IN3L Digital Volume" value="176" />
+		<ctl name="IN4L Digital Volume" value="180" />
 	</path>
 
 	<path name="gain-incall_wb-dual-speaker-mic">
