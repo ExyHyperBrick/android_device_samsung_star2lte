@@ -4176,8 +4176,8 @@
 	<!-- Input stage volume -->
 	<!-- media input volume -->
 	<path name="gain-media-mic">
-		<ctl name="IN3L Digital Volume" value="200" />
-		<ctl name="IN4L Digital Volume" value="200" />
+		<ctl name="IN3L Digital Volume" value="176" />
+		<ctl name="IN4L Digital Volume" value="176" />
 	</path>
 
 	<path name="gain-media-2nd-mic">
@@ -4203,7 +4203,7 @@
 
 	<!-- camcorder input volume -->
 	<path name="gain-camcorder-mic">
-		<ctl name="IN3L Digital Volume" value="187" />
+		<path name="gain-media-mic" />
 	</path>
 
 	<path name="gain-camcorder-2nd-mic">
@@ -4397,13 +4397,11 @@
 
 	<!-- communication input volume -->
 	<path name="gain-communication-handset-mic">
-		<ctl name="IN3L Digital Volume" value="176" />
-		<ctl name="IN4L Digital Volume" value="168" />
+		<path name="gain-media-mic"/>
 	</path>
 
 	<path name="gain-communication-speaker-mic">
-		<ctl name="IN3L Digital Volume" value="140" />
-		<ctl name="IN4L Digital Volume" value="144" />
+		<path name="gain-media-mic"/>
 	</path>
 
 	<path name="gain-communication-dual-speaker-mic">
@@ -4523,11 +4521,11 @@
 
 	<!-- voip input volume -->
 	<path name="gain-voip-handset-mic">
-		<ctl name="IN3L Digital Volume" value="166" />
+		<path name="gain-media-mic"/>
 	</path>
 
 	<path name="gain-voip-speaker-mic">
-		<ctl name="IN4L Digital Volume" value="166" />
+		<path name="gain-media-mic"/>
 	</path>
 
 	<path name="gain-voip-dual-speaker-mic">
