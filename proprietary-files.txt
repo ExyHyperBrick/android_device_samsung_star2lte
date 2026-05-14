@@ -60,14 +60,14 @@ vendor/firmware/nfc/BRI/sec_s3nrn82_firmware.bin
 
 # Samsung SLSI IVA
 vendor/lib/libhifistill.so;DISABLE_CHECKELF
-vendor/lib/libopenvx.so
+vendor/lib/libopenvx.so;DISABLE_CHECKELF
 vendor/lib64/libhifistill.so;DISABLE_CHECKELF
-vendor/lib64/libopenvx.so
+vendor/lib64/libopenvx.so;DISABLE_CHECKELF
 vendor/firmware/iva20_rt-lhotse.bin
 
 # Sensors
-vendor/lib/sensors.sensorhub.so
-vendor/lib64/sensors.sensorhub.so
+vendor/lib/sensors.sensorhub.so;DISABLE_CHECKELF
+vendor/lib64/sensors.sensorhub.so;DISABLE_CHECKELF
 
 # Widewine
 vendor/lib/libwvhidl.so;DISABLE_CHECKELF
