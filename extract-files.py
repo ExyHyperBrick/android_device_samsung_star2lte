@@ -8,12 +8,6 @@ from extract_utils.fixups_blob import (
     blob_fixup,
     blob_fixups_user_type,
 )
-from extract_utils.fixups_lib import (
-    lib_fixup_remove,
-    lib_fixup_remove_arch_suffix,
-    lib_fixups,
-    lib_fixups_user_type,
-)
 from extract_utils.main import (
     ExtractUtils,
     ExtractUtilsModule,
@@ -25,14 +19,6 @@ namespace_imports = [
     'hardware/samsung_slsi-linaro/graphics',
     'vendor/samsung/exynos9810-common',
 ]
-
-libs_remove = (
-    'android.frameworks.schedulerservice@1.0',
-)
-
-lib_fixups: lib_fixups_user_type = {
-    libs_remove: lib_fixup_remove,
-}
 
 blob_fixups: blob_fixups_user_type = {
     (
@@ -50,7 +36,6 @@ module = ExtractUtilsModule(
     namespace_imports=namespace_imports,
     add_firmware_proprietary_file=False,
     blob_fixups=blob_fixups,
-    lib_fixups=lib_fixups,
 )
 
 if __name__ == '__main__':
