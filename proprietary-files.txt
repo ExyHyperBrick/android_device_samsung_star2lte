@@ -57,6 +57,8 @@ vendor/app/mcRegistry/ffffffff00000000000000000000003e.tlbin
 # NFC
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
 vendor/firmware/nfc/BRI/sec_s3nrn82_firmware.bin
+vendor/etc/nfc/sec_s3nrn82_rfreg.bin
+vendor/etc/nfc/BRI/sec_s3nrn82_rfreg.bin
 
 # Samsung SLSI IVA
 vendor/lib/libhifistill.so;DISABLE_CHECKELF
