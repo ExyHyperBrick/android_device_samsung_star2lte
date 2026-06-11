@@ -654,20 +654,14 @@
 
 	<path name="communication-handset">
 		<path name="media-handset" />
-		<ctl name="ABOX Speech Param" value="9" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-speaker">
 		<path name="media-speaker" />
-		<ctl name="ABOX Speech Param" value="10" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-dual-speaker">
 		<path name="media-dual-speaker" />
-		<ctl name="ABOX Speech Param" value="10" />
-		<ctl name="ABOX Speech Update Flag" value="1" />
 	</path>
 
 	<path name="communication-dex-speaker">
