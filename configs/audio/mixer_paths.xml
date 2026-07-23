@@ -4391,8 +4391,8 @@
 
 	<!-- communication input volume -->
 	<path name="gain-communication-handset-mic">
-		<ctl name="IN3L Digital Volume" value="176" />
-		<ctl name="IN4L Digital Volume" value="168" />
+		<ctl name="IN3L Digital Volume" value="190" />
+		<ctl name="IN4L Digital Volume" value="182" />
 	</path>
 
 	<path name="gain-communication-speaker-mic">
