@@ -1924,7 +1924,7 @@
 
 	<path name="communication-speaker-mic">
 		<path name="route-ap-record" />
-		<path name="dev-dual-invert-mic" />
+		<path name="dev-dual-mic" />
 		<ctl name="ABOX OEM AP Call BW" value="0x020201" />
 		<ctl name="ABOX OEM AP Call type" value="10" />
 		<ctl name="ABOX OEM FM Mode" value="1" />
