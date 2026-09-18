@@ -22,9 +22,9 @@ namespace_imports = [
 
 blob_fixups: blob_fixups_user_type = {
     'vendor/lib/libexynoscamera3.so': blob_fixup()
-        .patch_file('camera/restore-fps-mode-arm.patch'),
+        .patch_file('camera/fhd60-arm'),
     'vendor/lib64/libexynoscamera3.so': blob_fixup()
-        .patch_file('camera/restore-fps-mode-arm64.patch'),
+        .patch_file('camera/fhd60-arm64'),
     (
         'vendor/lib/libwrappergps.so',
         'vendor/lib64/libwrappergps.so',
