@@ -21,6 +21,11 @@ namespace_imports = [
 ]
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/lib/lib_SoundBooster_ver900.so': blob_fixup()
+        .add_needed('libcompiler_rt.so')
+        .add_needed('libc++.so'),
+    'vendor/lib64/lib_SoundBooster_ver900.so': blob_fixup()
+        .add_needed('libc++.so'),
     'vendor/lib/libexynoscamera3.so': blob_fixup()
         .patch_file('camera/fhd60-arm'),
     'vendor/lib64/libexynoscamera3.so': blob_fixup()
