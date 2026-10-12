@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+from camera.native_buffer_fixup import fixup_picture_buffers
+
 from extract_utils.fixups_blob import (
     blob_fixup,
     blob_fixups_user_type,
@@ -27,7 +29,10 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/lib_SoundBooster_ver900.so': blob_fixup()
         .add_needed('libc++.so'),
     'vendor/lib/libexynoscamera3.so': blob_fixup()
-        .patch_file('camera/fhd60-arm'),
+        .call(
+            fixup_picture_buffers,
+            blob_fixup().patch_file('camera/fhd60-arm'),
+        ),
     'vendor/lib64/libexynoscamera3.so': blob_fixup()
         .patch_file('camera/fhd60-arm64'),
     (
