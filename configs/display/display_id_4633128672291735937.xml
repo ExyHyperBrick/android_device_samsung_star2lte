@@ -4,6 +4,19 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <displayConfiguration>
+    <densityMapping>
+        <density>
+            <width>1080</width>
+            <height>2220</height>
+            <density>420</density>
+        </density>
+        <density>
+            <width>1440</width>
+            <height>2960</height>
+            <density>560</density>
+        </density>
+    </densityMapping>
+
     <!--
          Brightness calibration derived from the Samsung S6E3HA8
          star2lte star2_a3_s0 panel dimming table.
